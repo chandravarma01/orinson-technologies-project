@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Great+Vibes&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.landing-main {
+  background-color: #3c5b6f;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.cart-image {
+  width: 330px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.second-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 5%;
+}
+
+.second-section p {
+  margin: 8px;
+  font-size: 24px;
+  color: white;
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.second-section button {
+  border: none;
+  background-color: orange;
+  padding: 10px 18px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 16px;
+  font-family: "Crimson Text", serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .second-section {
+    flex-direction: column-reverse;
+    padding: 20px;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .second-section p {
+    font-size: 18px;
+  }
+}
